@@ -34,7 +34,7 @@ public class Driver {
 
     job.setOutputFormatClass(TextOutputFormat.class);
 
-    DistributedCache.addCacheFile(new Path(args[0]).toUri(), job.getConfiguration());
+    job.addCacheFile(new Path(args[0]).toUri());
 
     Path outputPath = new Path(args[2]);
 
