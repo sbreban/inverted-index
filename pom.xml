@@ -11,14 +11,6 @@
         <HADOOP-VERSION>2.7.2</HADOOP-VERSION>
     </properties>
     <dependencies>
-        <!-- JDK Tools -->
-        <dependency>
-            <groupId>jdk.tools</groupId>
-            <artifactId>jdk.tools</artifactId>
-            <scope>system</scope>
-            <version>1.8.0_131</version>
-            <systemPath>/usr/lib/jvm/java-8-oracle/lib/tools.jar</systemPath>
-        </dependency>
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
