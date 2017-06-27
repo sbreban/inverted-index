@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-scp target/invertedIndex-1.0.jar sshbreban@sbreban-ssh.azurehdinsight.net
-scp -r input sshbreban@sbreban-ssh.azurehdinsight.net:.
-scp stopwords.txt sshbreban@sbreban-ssh.azurehdinsight.net:.
-scp run-index.sh sshbreban@sbreban-ssh.azurehdinsight.net:.
+scp target/invertedIndex-1.0.jar $1:.
+scp -r input $1:.
+scp stopwords.txt $1:.
+scp run-index.sh $1:.

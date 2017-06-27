@@ -42,7 +42,7 @@ public class Driver {
 
     FileOutputFormat.setOutputPath(job, outputPath);
 
-    outputPath.getFileSystem(conf).delete(outputPath);
+    outputPath.getFileSystem(conf).delete(outputPath, true);
 
     System.exit(job.waitForCompletion(true) ? 0 : 1);
 

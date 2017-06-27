@@ -8,7 +8,7 @@
     <artifactId>invertedIndex</artifactId>
     <version>1.0</version>
     <properties>
-        <HADOOP-VERSION>2.7.2</HADOOP-VERSION>
+        <HADOOP-VERSION>2.8.0</HADOOP-VERSION>
     </properties>
     <dependencies>
         <dependency>

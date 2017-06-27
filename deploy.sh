@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 sudo docker cp target/invertedIndex-1.0.jar hadoop-master:/root/
 sudo docker cp input hadoop-master:/root/
